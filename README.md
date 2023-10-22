@@ -1,4 +1,8 @@
 # Zipper
+
+[![Release](https://img.shields.io/github/release/nicelizhi/Zipper.svg?style=flat-square)](https://github.com/nicelizhi/Zipper/releases)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nicelizhi/Zipper)
+
 This is a simple Wrapper around the ZipArchive methods with some handy functions.
 
 ## Installation
