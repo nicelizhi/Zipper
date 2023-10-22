@@ -7,6 +7,10 @@ This is a simple Wrapper around the ZipArchive methods with some handy functions
 
 ## Installation
 
+```
+composer requuire nicelizhi/zipper
+```
+
 1. Add this package to the list of required packages, inside `composer.json`
   * for Laravel ^5 `"nicelizhi/zipper": "2.0.0"`
   * for Laravel 5: `"nicelizhi/zipper": "1.0.x"`
