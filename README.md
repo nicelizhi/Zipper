@@ -8,7 +8,7 @@ This is a simple Wrapper around the ZipArchive methods with some handy functions
 ## Installation
 
 ```
-composer requuire nicelizhi/zipper
+composer require nicelizhi/zipper
 ```
 
 1. Add this package to the list of required packages, inside `composer.json`
