@@ -210,3 +210,6 @@ Maybe it is a good idea to add other compression functions like rar, phar or bzi
 Everything is setup for that, if you want just fork and develop further.
 
 If you need other functions or got errors, please leave an issue on github.
+
+# Credits
+[@Chumper](https://github.com/Chumper)

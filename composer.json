@@ -1,7 +1,7 @@
 {
     "name": "nicelizhi/zipper",
     "type": "library",
-    "description": "This is a little neat helper for the ZipArchive methods with handy functions",
+    "description": "This is a little neat helper for the ZipArchive methods with handy functions,Wannabe successor of Chumper/Zipper package for Laravel",
     "keywords": ["laravel", "ZIP", "Archive"],
     "homepage": "http://github.com/nicelizhi/zipper",
     "license": "MIT",
