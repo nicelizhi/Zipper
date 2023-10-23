@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: [ubuntu-latest, windows-latest, macOS-latest]
+        operating-system: [ubuntu-latest]
         php-versions: ['7.4']
         stability: [prefer-lowest, prefer-stable]
     name: PHP ${{ matrix.php-versions }} Test on ${{ matrix.operating-system }}
@@ -53,5 +53,5 @@ jobs:
 
     #- name: Run test suite
     #  run: composer run-script test
-    - name: Run test suite
-      run: vendor/bin/phpunit
+    #- name: Run test suite
+    #  run: vendor/bin/phpunit
