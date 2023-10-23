@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         operating-system: [ubuntu-latest, windows-latest, macOS-latest]
-        php-versions: ['5.6', '7.2', '7.3', '7.4', '8.0', '8.1']
+        php-versions: ['7.4']
     name: PHP ${{ matrix.php-versions }} Test on ${{ matrix.operating-system }}
 
     steps:
@@ -26,6 +26,8 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         php-version: ${{ matrix.php-versions }}
+        extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick
+        coverage: none
         
     - name: Check PHP Version
       run: php -v
@@ -50,3 +52,5 @@ jobs:
 
     #- name: Run test suite
     #  run: composer run-script test
+    - name: Run test suite
+      run: vendor/bin/phpunit
